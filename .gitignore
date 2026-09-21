@@ -1,0 +1,11 @@
+# Lean build tree and package cache (never commit)
+lean/.lake/
+lean/build/
+*.olean
+# LaTeX aux
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+__pycache__/
+*.pyc
