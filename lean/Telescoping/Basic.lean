@@ -32,7 +32,7 @@ namespace Telescoping
 /-! ## 1. The telescoping identity
 
 The backbone of the manuscript: a sequence equals its initial term plus the sum
-of its increments. Mathlib knows this; we record it in the paper's own notation
+of its increments. Mathlib knows this; we record it in the paper's own conventions
 so later statements can refer to it. -/
 
 /-- Finite telescoping: `x n = x 0 + ∑_{k<n} (x (k+1) - x k)`. -/
