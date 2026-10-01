@@ -87,6 +87,8 @@ successful run prints:
 PASS (14 theorems, standard axioms only)
 ```
 
+`scratch/Satisfiable.lean` gives, for every theorem with hypotheses, a Lean-checked example showing the hypotheses can all be met (compile with `lake env lean scratch/Satisfiable.lean`).
+
 The gate is negative-tested: injecting a `sorry`-proved lemma, or deleting an
 audit line, both make it fail.
 
